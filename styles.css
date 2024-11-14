@@ -12,6 +12,14 @@ body {
     text-align: center;
 }
 
+#gameBoard {
+    display: none;
+}
+
+#restartGame {
+    margin-top: 10px;
+}
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
